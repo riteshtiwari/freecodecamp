@@ -1,0 +1,9 @@
+//Reverse the provided string.
+
+function reverseString(str) { // str = "hello"
+  str = str.split(""); // str = ["h", "e", "l", "l", "o"]
+  str = str.reverse(); // str = ["o", "l", "l", "e", "h"]
+  str = str.join(''); // str = "olleh"
+  return str;
+}
+reverseString("hello");
